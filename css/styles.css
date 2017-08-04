@@ -1,0 +1,49 @@
+#canvas {
+	border: 1px solid #fff;
+	background: #323446;
+	border-radius: 4px;
+}
+
+#documentation {
+	display: none;
+}
+
+.btn,.doc-btn {
+	border: none;
+	border-bottom: 5px solid #6859b4;
+	padding: 12px 20px;	
+	font-size: 15px;
+	color: #ffffff;
+	font-family: Tahoma;
+	border-radius: 4px;
+	background: #8b76e7;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: #7e67d9;
+}
+
+.btn:disabled {
+	background: #999999;
+	border-bottom-color: #777777;
+	cursor: default;
+	color: #666666;
+}
+
+.doc-btn {
+	background: #1abc9c;
+	border-bottom-color: #16a085;
+}
+
+.fileField {
+	padding: 10px;
+	border: 1px dashed #888;
+}
+
+form {
+	width: 400px;
+	padding: 10px;
+	border: 1px solid #888;
+}
+
